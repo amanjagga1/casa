@@ -1,0 +1,20 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.Products {
+  margin: 20px 0;
+  .product_id, .product_qty, .delete, .product_price, .product_total {
+    width: 100px;
+    height: 40px;
+  }
+  .product_name {
+    width: 250px;
+    height: 40px;
+  }
+}
+
+

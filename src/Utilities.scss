@@ -1,0 +1,26 @@
+.flex {
+  display: flex;
+  justify-content: space-between
+}
+.ui.input, .react-datepicker__input-container {
+  margin: 10px 0;
+  input{
+    height: 30px;
+  }
+}
+.address {
+  .ui.input {
+    display: block;
+    input{
+      width: 400px;
+    }
+  }
+}
+
+.margin {
+  margin: 10px
+}
+
+.margin--tb {
+  margin: 10px 0;
+}
