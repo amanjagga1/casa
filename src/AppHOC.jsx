@@ -26,7 +26,9 @@ const AppHOC = (WrappedComponent) => {
         const e = newState.order_date;
         const e1 = newState.expected_delivery;
         const orderPost = {
-          ...newState,
+          billing_address: newState.billing_address,
+          shipping_address: newState.shipping_address,
+          products: newState.products,
           order_date: `${e.getFullYear()}-${e.getMonth() + 1}-${e.getDate()}`,
           expected_delivery: `${e1.getFullYear()}-${e1.getMonth() + 1}-${e1.getDate()}`
         }
